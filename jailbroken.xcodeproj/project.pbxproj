@@ -11,6 +11,7 @@
 		7EDE5A0A287373400048137C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE5A09287373400048137C /* ContentView.swift */; };
 		7EDE5A0C287373400048137C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE5A0B287373400048137C /* Assets.xcassets */; };
 		7EDE5A0F287373400048137C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDE5A0E287373400048137C /* Preview Assets.xcassets */; };
+		7EDE5A16287374700048137C /* IsJailbroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE5A15287374700048137C /* IsJailbroken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		7EDE5A09287373400048137C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7EDE5A0B287373400048137C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EDE5A0E287373400048137C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EDE5A15287374700048137C /* IsJailbroken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsJailbroken.swift; sourceTree = "<group>"; };
+		7EDE5A17287394F00048137C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		7EDE59FB287373400048137C = {
 			isa = PBXGroup;
 			children = (
+				7EDE5A17287394F00048137C /* README.md */,
 				7EDE5A06287373400048137C /* jailbroken */,
 				7EDE5A05287373400048137C /* Products */,
 			);
@@ -53,6 +57,7 @@
 			children = (
 				7EDE5A07287373400048137C /* jailbrokenApp.swift */,
 				7EDE5A09287373400048137C /* ContentView.swift */,
+				7EDE5A15287374700048137C /* IsJailbroken.swift */,
 				7EDE5A0B287373400048137C /* Assets.xcassets */,
 				7EDE5A0D287373400048137C /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDE5A16287374700048137C /* IsJailbroken.swift in Sources */,
 				7EDE5A0A287373400048137C /* ContentView.swift in Sources */,
 				7EDE5A08287373400048137C /* jailbrokenApp.swift in Sources */,
 			);
@@ -195,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
