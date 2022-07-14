@@ -32,7 +32,7 @@ func IsJailbroken() { //name of the function
         "/usr/bin/ssh"
     ]
     
-    for path in jbFilePaths where FileManager.default.fileExists(atPath: path) {
+    for path in jbFilePaths where FileManager.default.isExecutableFile(atPath: path) {
         Jailbroken = true
         return
     }
